@@ -1,0 +1,59 @@
+@keyframes fadeAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.fade {
+    animation: fadeAnimation 2s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+.slideRight {
+    animation: slideInFromRight 1s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+.slideLeft {
+    animation: slideInFromLeft 1s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.home {
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 100vh;
+}

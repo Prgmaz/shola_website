@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Shola
+    </title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/js/jquery-3.5.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" style="background-color: #222222;">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-transparent py-4"
+     style="width: 100%; z-index: 200; position: fixed">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+            <ul class="navbar-nav text-uppercase font-weight-normal">
+                <li class="nav-item px-3">
+                    <a class="nav-link active" href="#home">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link active" href="#about">
+                        About
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<section id="home">
+    <div class="home d-flex justify-content-center align-items-center flex-column"
+         style="background-size: contain; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/images/LogoBH.png'), linear-gradient(black, black);">
+        <div class="container">
+            <div class="row intro-text align-items-center justify-content-center">
+                <div class="col-md-10 text-center text-white pt-5">
+                    <div style="font-size: 70px; font-weight: 200">
+                        <div class="slideRight flex-column d-flex">
+                            Hello, World!
+                            <strong style="font-size: 36px;">This is </strong>
+                        </div>
+
+                        <strong class="d-block fade" style="font-weight: 800">
+                            Shola App
+                        </strong>
+                    </div>
+                    <strong class="d-block text-uppercase letter-spacing text-white-50 slideLeft">
+                        and this is it's website
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="d-flex flex-column align-items-center min-vh-100 py-5" style="font-size: 30px;">
+        <div class="container text-white text-center my-5">
+            <p style="font-weight: 200">
+                About
+                <strong style="font-weight: 900">App</strong>
+            </p>
+        </div>
+        <div class="container d-flex align-items-center justify-content-center row text-white text-center mt-5">
+            <div class="card text-left p-2 m-3 col-md-5" style="background-color: #333333">
+                <div class="card-body" style="font-size: 20px;">
+                    <p class="card-text text-success" style="">
+                        Hire Workers
+                    </p>
+                    <p class="card-text text-white-50" style="font-size: 16px">
+                        You can hire workers/helpers to get your work done. An initiative to create jobs and help workers/shops to grow their business online.
+                    </p>
+                    <p class="card-text text-white-50" style="font-size: 15px">
+                        Shola App
+                    </p>
+                </div>
+            </div>
+            <div class="card text-left p-2 m-3 col-md-5" style="background-color: #333333">
+                <div class="card-body" style="font-size: 20px;">
+                    <p class="card-text text-success" style="">
+                        Buy from Local Stores
+                    </p>
+                    <p class="card-text text-white-50" style="font-size: 16px">
+                        Order anything online from your local market at very cheap price, and get it delivered to you very fast.
+                    </p>
+                    <p class="card-text text-white-50" style="font-size: 15px">
+                        Shola App
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+
+</html>

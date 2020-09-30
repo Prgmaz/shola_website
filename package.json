@@ -1,0 +1,15 @@
+{
+  "name": "shola_website",
+  "version": "1.0.0",
+  "description": "Shola Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Naman Baranwal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
